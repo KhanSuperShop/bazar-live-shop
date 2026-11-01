@@ -275,7 +275,13 @@
 
         // পেজ লোড হলে টেবিল চালু হবে
         renderAdminTable();
-    </script>
+    // ১. সুপাবেস কানেকশন সেটআপ
+const SUPABASE_URL = 'https://kuecacvhadqzywvkmauo.supabase.co'; 
+const SUPABASE_ANON_KEY = 'sb_publishable_ijrPXf2ssOl-5usaMmSNgw_VNpkJkpI'; 
+
+const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+<!-- সুপাবেসের অফিশিয়াল অনলাইন সিডিএন লিংক -->
+<script src="https://jsdelivr.net"></script>
 
 </body>
 </html>
